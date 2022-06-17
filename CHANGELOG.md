@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.3-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Renaming master to trunk.
+
 ## [1.1.2] - 2022-04-26
 ### Changed
 - Updated package dependencies.
@@ -42,6 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added the Jetpack Installer package.
 
+[1.1.3-alpha]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.1.2...v1.1.3-alpha
 [1.1.2]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.0.2...v1.1.0
