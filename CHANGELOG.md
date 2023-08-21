@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.13-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## [1.1.12] - 2023-07-24
 ### Fixed
 - Allow `beta-plugin-slug` for cases when a `wp-plugin-slug` doesn't exist yet but is planned to. [#31551]
@@ -82,6 +89,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added the Jetpack Installer package.
 
+[1.1.13-alpha]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.1.12...v1.1.13-alpha
 [1.1.12]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.1.11...v1.1.12
 [1.1.11]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.1.10...v1.1.11
 [1.1.10]: https://github.com/Automattic/jetpack-composer-plugin/compare/v1.1.9...v1.1.10
