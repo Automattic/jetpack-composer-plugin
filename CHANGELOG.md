@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.0.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Removed
+- Minimum supported PHP version is now 7.4.
+
 ## [4.0.9] - 2026-08-03
 ### Fixed
 - i18n map: Don't alias a package whose textdomain equals the plugin domain — that self-alias recurses infinitely in the assets gettext filter. Its path is emitted under the new `paths` key instead, so its JavaScript translations can still be found. [#50762]
@@ -154,6 +161,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added the Jetpack Installer package.
 
+[5.0.0-alpha]: https://github.com/Automattic/jetpack-composer-plugin/compare/v4.0.9...v5.0.0-alpha
 [4.0.9]: https://github.com/Automattic/jetpack-composer-plugin/compare/v4.0.8...v4.0.9
 [4.0.8]: https://github.com/Automattic/jetpack-composer-plugin/compare/v4.0.7...v4.0.8
 [4.0.7]: https://github.com/Automattic/jetpack-composer-plugin/compare/v4.0.6...v4.0.7
